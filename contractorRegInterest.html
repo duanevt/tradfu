@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Tradfu - Contractor Register Interest</title>
+
+		<link rel="icon" href="favicon.ico">
+		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+		<!-- TODO SEO Metadata keywords etc-->
+		<meta name="description" content="Tradfu wants you! Tradies, Cleaners, Locksmiths, landscapers and more. Become a Tradfu contractor today and earn money on your schedule.">
+        <script type="text/javascript">TRADFU_API_SERVER_PATH="{{TRADFU_API_SERVER_PATH | safe}}"</script>
+
+		<!-- Bootstrap -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+		<!-- Font Awesome - social media glyphicons etc -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+        <!-- toastr -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.3/toastr.min.css">
+
+
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/css/notaffixed.css">
+
+	</head>
+	<body data-spy="scroll" data-target=".scrollspy">
+		<!-- Menu Modal -->
+		<div class="container">
+			<!-- Modal -->
+			<div class="modal left fade" id="menuModal" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<a class="navbar-brand" href="#"><img src="/images/tradfu-logo-btn-hover.png" alt="Tradfu Logo" width="130px" height="20px" /></a>
+						</div>
+
+						<div class="modal-body">
+							<!-- Left aligned menu items -->
+							<div class="nav sidebar nav-sidebar navbar-inverse">
+								<!-- All links defined in this menu are also defined elsewhere on the page -->
+								<ul class="nav navbar-nav navbar-right navbar-inverse">
+                  <li><a href='customer.html'>Hire a Tradfu</a></li>
+                  <li><a href='contractor.html'>Contractor Benefits</a></li>
+                  <li><a href='contractorRegInterest.html'>Become a Contractor</a></li>
+                  <li><a href='about.html'>About Us</a></li>
+                  <li><a href='contactUs.html'>Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div><!-- modal-content -->
+				</div><!-- modal-dialog -->
+			</div><!-- modal -->
+		</div>
+
+		<!-- Menu Navbar -->
+		<nav class="navbar navbar-fixed-top navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+
+					<!-- Burger button - visible when screen is large - triggers modal menu -->
+					<button type="button" class="navbar-toggle collapsed navbar-left mine" data-toggle="modal" data-target="#menuModal" aria-expanded="true" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<!-- Burger button - only visible if small screen -->
+					<button type="button" class="navbar-toggle collapsed navbar-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<!-- Tradfu logo/text here -->
+				    <a class="navbar-brand" href="index.html">
+				        <img src="/images/tradfu-logo-btn.png" alt="Tradfu Logo" width="130px" height="20px"/>
+				    </a>
+				</div>
+
+				<div id="navbar" class="collapse navbar-collapse">
+
+					<!-- Left aligned menu items -->
+					<ul class="nav navbar-nav">
+            <li><a href='customer.html'>Hire a Tradfu</a></li>
+            <li><a href='contractor.html'>Contractor Benefits</a></li>
+					</ul>
+
+				</div><!-- /.nav-collapse -->
+			</div><!-- /.container -->
+		</nav><!-- /.navbar -->
+    <div class="container">
+        <div class="row row-offcanvas row-offcanvas-right">
+            <div class="col-sm-12">
+
+                <div class="row">
+                    <div class="col-sm-12">
+                        <!-- START CONTACT HEADING -->
+                        <div class="heading">
+                            <h2 class="wow fadeInLeftBig">Register Your Interest To Provide Trade Services With Tradfu</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- BEGIN CONTACT CONTENT -->
+                    <div class="contact_content">
+                        <!-- BEGIN CONTACT FORM -->
+                        <form id="contractorRegistration" action="formSubmit" method="post" accept-charset="UTF-8">
+
+                            <div class="col-lg-5 col-md-6 col-sm-6">
+                                <div class="col-md-5 col-sm-5">
+                                    <div class="contact_form">
+                                        <div class="form-group required">
+                                            <label for="FirstName">First Name:</label>
+                                            <input type="text" class="form-control" id="FirstName" name="FirstName" placeholder="John" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-7 col-sm-7">
+                                    <div class="contact_form">
+                                        <div class="form-group required">
+                                            <label for="LastName">Last Name:</label>
+                                            <input type="text" class="form-control" id="LastName" name="LastName" placeholder="Citizen" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="contact_form">
+                                        <div class="form-group">
+                                            <label for="Company">Company:</label>
+                                            <input type="text" class="form-control" id="Company" name="Company" placeholder="Company">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="contact_form">
+                                        <div class="form-group">
+                                            <label for="PhoneNumber">Phone:</label>
+                                            <input type="tel" class="form-control" id="PhoneNumber" name="PhoneNumber" placeholder="Phone">
+                                        </div>
+                                        <div class="form-group required">
+                                            <label for="Email">Email:</label>
+                                            <input type="email" class="form-control" id="Email" name="Email" placeholder="name@example.com" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-7 col-sm-7">
+                                    <div class="contact_form">
+                                        <div class="form-group">
+                                            <label for="City">City:</label>
+                                            <input type="text" class="form-control" id="City" name="City" placeholder="City">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-5 col-sm-5">
+                                    <div class="contact_form">
+                                        <div class="form-group required">
+                                            <label for="Postcode">Post Code:</label>
+                                            <input type="text" class="form-control" id="Postcode" name="Postcode" placeholder="1234" required>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-lg-5 col-md-6 col-sm-6">
+
+                                <div class="col-md-12 col-sm-12">
+                                    <div class="contact_form">
+
+                                        <div class="form-group required">
+                                            <label for="InterestedServices">Which services do you offer? (hold ctrl to select more than one)</label>
+                                            <select multiple class="form-control" id="InterestedServices" name="InterestedServices" size="8" required>
+                                                <option value="carpentry">Carpentry</option>
+                                                <option value="carpet_layer">Carpet Layer</option>
+                                                <option value="carpet_cleaner">Carpet Cleaner</option>
+                                                <option value="cleaner">Cleaner</option>
+                                                <option value="electrician">Electrician</option>
+                                                <option value="handyman">Handyman - No Formal Qualifications</option>
+                                                <option value="landscaper">Landscaper</option>
+                                                <option value="locksmith">Locksmith</option>
+                                                <option value="painting">Painting</option>
+                                                <option value="plumbing">Plumbing</option>
+                                                <option value="refrigeration">Refrigeration/Air Conditioning Mechanic</option>
+                                                <option value="tiling">Tiling</option>
+                                                <option value="waterproofer">Waterproofer</option>
+                                                <option value="window_cleaning">Window Cleaning</option>
+                                                <option value="glazier">Windows/Glazier</option>
+                                                <option value="other">Other</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="contact_form">
+                                            <div class="form-group">
+                                                <label for="OtherInterestedServices">Other Trade/Service/Specialisations:</label>
+                                                <textarea class="form-control" id="OtherInterestedServices" name="OtherInterestedServices" rows="2" placeholder="Other Trades or Services not listed above"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label for="ReferralSource">Where did you hear about us?</label>
+                                            <select class="form-control" id="ReferralSource" name="ReferralSource">
+                                                <option></option>
+                                                <option value="email">Email marketing</option>
+                                                <option value="famfri">Family / Friend</option>
+                                                <option value="searchengine">Google/Search Engine</option>
+                                                <option value="mail">Mail</option>
+                                                <option value="radio">Radio</option>
+                                                <option value="facebook">Social Media - Facebook</option>
+                                                <option value="instagram">Social Media - Instagram</option>
+                                                <option value="twitter">Social Media - Twitter</option>
+                                                <option value="linkedin">Social Media - LinkedIn</option>
+                                                <option value="other">Other</option>
+                                            </select>
+                                        </div>
+
+                                        <input class="btn submit_btn btn-tradfu-green" type="submit" name="submit" value="Submit"><br />
+                                    </div>
+                                </div>
+
+
+
+                            </div>
+                            <div class="col-lg-2 col-md-12 col-sm-12">
+                                <small>
+                                    By proceeding, I agree that Tradfu or its representatives may contact me by email, phone, or SMS (including by automated means) at the email address or number
+                                    I provide, including for marketing purposes. I have read and understand the Tradesperson Privacy Statement.
+                                </small>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div><!--/.col-xs-12.col-sm-9-->
+        </div><!--/row-->
+    </div><!--/.container-->
+		<footer class="footer">
+			<nav class="navbar navbar-bottom navbar-inverse">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+
+							<!-- Footer menu - contact us, media etc -->
+							<div class="row">
+								<!-- Footer top - Left menu -->
+								<ul class="nav navbar-nav">
+                  <li><a href='about.html'><span>About Us</span></a></li>
+									<li><a href='contactUs.html'><span>Contact Us</span></a></li>
+								</ul>
+
+								<!-- Footer top - Right menu -->
+								<!-- Social Media links -->
+								<div class="navbar-right">
+									<a href="https://www.facebook.com/Tradfu" target="_blank" class="footer_social">
+										<span class="sr-only">Facebook</span>
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a href="https://www.linkedin.com/company/tradfu" target="_blank" class="footer_social">
+										<span class="sr-only">LinkedIn</span>
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</div>
+
+							</div><!--/row-->
+
+							<div class="row secondary">
+
+								<!-- Footer bottom - Left menu -->
+								<!-- Copyright / Privacy / terms -->
+								<ul class="nav navbar-nav">
+                  <li><a href='privacy.html'><span>Privacy</span></a></li>
+                  <li><a href='terms.html'><span>Terms</span></a></li>
+									<li><span><span>&copy; 2016 Tradfu Holdings Pty Ltd.</span></span></li>
+								</ul>
+							</div><!--/row-->
+
+						</div><!--/.col-xs-12.col-sm-9-->
+					</div><!--/row-->
+				</div><!-- /.container -->
+			</nav><!-- /.navbar -->
+		</footer>
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) - stay below v2.x.x to support IE8 -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="/js/ie10-viewport-bug-workaround.js"></script>
+
+        <!-- toastr -->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.3/toastr.min.js"></script>
+    <script type="text/javascript" src="/js/contractorReg.js"></script>
+
+	</body>
+</html>

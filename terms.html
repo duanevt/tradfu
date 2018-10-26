@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>{{title}}</title>
+
+		<link rel="icon" href="favicon.ico">
+		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+
+		<!-- TODO SEO Metadata keywords etc-->
+		<meta name="description" content="{{pageDescription}}">
+        <script type="text/javascript">TRADFU_API_SERVER_PATH="{{TRADFU_API_SERVER_PATH | safe}}"</script>
+
+		<!-- Bootstrap -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+		<!-- Font Awesome - social media glyphicons etc -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/notaffixed.css">
+
+	</head>
+	<body data-spy="scroll" data-target=".scrollspy">
+		<!-- Menu Modal -->
+		<div class="container">
+			<!-- Modal -->
+			<div class="modal left fade" id="menuModal" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<a class="navbar-brand" href="index.html"><img src="/images/tradfu-logo-btn-hover.png" alt="Tradfu Logo" width="130px" height="20px" /></a>
+						</div>
+
+						<div class="modal-body">
+							<!-- Left aligned menu items -->
+							<div class="nav sidebar nav-sidebar navbar-inverse">
+								<!-- All links defined in this menu are also defined elsewhere on the page -->
+								<ul class="nav navbar-nav navbar-right navbar-inverse">
+                  <li><a href='customer.html'>Hire a Tradfu</a></li>
+                  <li><a href='contractor.html'>Contractor Benefits</a></li>
+                  <li><a href='contractorRegInterest.html'>Become a Contractor</a></li>
+                  <li><a href='about.html'>About Us</a></li>
+                  <li><a href='contactUs.html'>Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div><!-- modal-content -->
+				</div><!-- modal-dialog -->
+			</div><!-- modal -->
+		</div>
+
+		<!-- Menu Navbar -->
+		<nav class="navbar navbar-fixed-top navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+
+					<!-- Burger button - visible when screen is large - triggers modal menu -->
+					<button type="button" class="navbar-toggle collapsed navbar-left mine" data-toggle="modal" data-target="#menuModal" aria-expanded="true" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<!-- Burger button - only visible if small screen -->
+					<button type="button" class="navbar-toggle collapsed navbar-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<!-- Tradfu logo/text here -->
+				    <a class="navbar-brand" href="index.html">
+				        <img src="/images/tradfu-logo-btn.png" alt="Tradfu Logo" width="130px" height="20px"/>
+				    </a>
+				</div>
+
+				<div id="navbar" class="collapse navbar-collapse">
+
+					<!-- Left aligned menu items -->
+					<ul class="nav navbar-nav">
+            <li><a href='customer.html'>Hire a Tradfu</a></li>
+            <li><a href='contractor.html'>Contractor Benefits</a></li>
+
+					</ul>
+
+				</div><!-- /.nav-collapse -->
+			</div><!-- /.container -->
+		</nav><!-- /.navbar -->
+    <div class="container">
+        <div class="row row-offcanvas row-offcanvas-right">
+            <div class="col-sm-12">
+
+                <div class="row">
+                    <h1>TERMS AND CONDITIONS</h1>
+                    <h2>Tradfu Holdings Pty Ltd (&ldquo;Tradfu&rdquo;)</h2>
+                    <p>Last updated: August 29, 2016</p>
+                    <h1 class="autonumberPeriod">Contractual Relationship</h1>
+
+                    <p>
+                        These Terms of Use (&ldquo;<dfn title="Terms of Use">Terms</dfn>&rdquo;) govern the access or use by you, an individual,
+                        from within Australia of applications, websites, content, products, and services
+                        (the &ldquo;<dfn title="applications, websites, content, products, and services">Services</dfn>&rdquo;)
+                        made available by <dfn title="Tradfu Holdings Pty Ltd (&ldquo;Tradfu&rdquo;)">Tradfu</dfn>, a private limited liability company
+                        established in Australia, having its offices at 133 Woodlands Drive, Thornlands QLD 4164,
+                        registered at the Australian Securities and Investment Commission under the ACN 608 507 348.
+                    </p>
+                    <p>
+                        PLEASE READ THESE TERMS CAREFULLY BEFORE ACCESSING OR USING THE SERVICES.
+                    </p>
+                    <p>
+                        Your access and use of the Services constitutes your agreement to be bound by these Terms, which establishes a contractual relationship
+                        between you and Tradfu. If you do not agree to these Terms, you may not access or use the Services. These Terms expressly supersede prior
+                        agreements or arrangements with you. Tradfu may immediately terminate these Terms or any Services with respect to you, or generally cease
+                        offering or deny access to the Services or any portion thereof, at any time for any reason.
+                    </p>
+                    <p>
+                        Supplemental terms may apply to certain Services, such as policies for a particular event, activity or promotion, and such supplemental
+                        terms will be disclosed to you in connection with the applicable Services. Supplemental terms are in addition to, and shall be deemed
+                        a part of, the Terms for the purposes of the applicable Services. Supplemental terms shall prevail over these Terms in the event of a
+                        conflict with respect to the applicable Services.
+                    </p>
+                    <p>
+                        Tradfu may amend the Terms related to the Services from time to time. Amendments will be effective upon Tradfu&rsquo;s posting of such updated
+                        Terms at this location or the amended policies or supplemental terms on the applicable Service. Your continued access or use of the
+                        Services after such posting constitutes your consent to be bound by the Terms, as amended.
+                    </p>
+                    <!-- todo privacy page -->
+                    <p>
+                        Our collection and use of personal information in connection with the Services is as provided in Tradfu&rsquo;s Privacy Policy located at
+                        <a href="www.tradfu.com/privacy">www.Tradfu.com/privacy</a>. Tradfu may provide to a claims processor or
+                        an insurer any necessary information (including your contact information) if there is a complaint, dispute or conflict, which may
+                        include an accident, involving you and a Third Party Provider and such information or data is necessary to resolve the complaint,
+                        dispute or conflict.
+                    </p>
+
+
+                    <h1 class="autonumberPeriod">The Services</h1>
+                    <p>
+                        The Services constitute a technology platform that enables users of Tradfu&rsquo;s mobile applications or websites provided as part of
+                        the Services (each, an &ldquo;<dfn>Application</dfn>&rdquo;) to arrange and schedule services with independent third party providers, including
+                        independent third party contractors and independent third party providers under agreement with Tradfu or certain of Tradfu&rsquo;s
+                        affiliates
+                        (&ldquo;<dfn title="Independent third party providers, including independent third party contractors and independent third party providers under agreement with Tradfu or certain of Tradfu&rsquo;s affiliates">Third Party Providers</dfn>&rdquo;).
+                        Unless otherwise agreed by Tradfu in a separate written agreement with you, the Services are made available solely for your
+                        personal, non-commercial use.
+                    </p>
+                    <p>
+                        YOU ACKNOWLEDGE THAT TRADFU DOES NOT PROVIDE REPAIRS, MAINTENANCE OR IMPROVEMENT SERVICES AND THAT ALL SUCH SERVICES ARE
+                        PROVIDED BY INDEPENDENT THIRD PARTY CONTRACTORS WHO ARE NOT EMPLOYED BY TRADFU OR ANY OF ITS AFFILIATES.
+                    </p>
+                    <h2 class="autonumber">License</h2>
+                    <p>
+                        Subject to your compliance with these Terms, Tradfu grants you a limited, non-exclusive, non-sub-licensable, revocable, non-transferrable
+                        license to: (i) access and use the Applications on your personal device solely in connection with your use of the Services; and (ii)
+                        access and use any content, information and related materials that may be made available through the Services, in each case solely
+                        for your personal, non-commercial use. Any rights not expressly granted herein are reserved by Tradfu and Tradfu&rsquo;s
+                        licensors.
+                    </p>
+                    <h2 class="autonumber">Restrictions</h2>
+                    <p>
+                        You may not: (i) remove any copyright, trademark or other proprietary notices from any portion of the Services; (ii) reproduce, modify,
+                        prepare derivative works based upon, distribute, license, lease, sell, resell, transfer, publicly display, publicly perform, transmit,
+                        stream, broadcast or otherwise exploit the Services except as expressly permitted by Tradfu; (iii) decompile, reverse engineer or
+                        disassemble the Services except as may be permitted by applicable law; (iv) link to, mirror or frame any portion of the Services;
+                        (v) cause or launch any programs or scripts for the purpose of scraping, indexing, surveying, or otherwise data mining any portion
+                        of the Services or unduly burdening or hindering the operation and/or functionality of any aspect of the Services; or (vi) attempt
+                        to gain unauthorized access to or impair any aspect of the Services or its related systems or networks.
+                    </p>
+                    <h2 class="autonumber">Provision of the Services</h2>
+                    <p>
+                        You acknowledge that portions of the Services may be made available under Tradfu&rsquo;s various brands or request options associated with
+                        repairs, maintenance or improvements, including the request brands currently referred to as &ldquo;<dfn>Tradfu</dfn>&rdquo;. You also acknowledge
+                        that the Services may be made available under such brands or request options by or in connection with: (i) certain of Tradfu&rsquo;s
+                        subsidiaries and affiliates; or (ii) independent Third Party Providers, including transportation network company drivers, transportation
+                        charter permit holders or holders of similar transportation permits, authorizations or licenses.
+                    </p>
+                    <h2 class="autonumber">Third Party Services and Content</h2>
+                    <p>
+                        The Services may be made available or accessed in connection with third party services and content (including advertising) that Tradfu
+                        does not control. You acknowledge that different terms of use and privacy policies may apply to your use of such third party services
+                        and content. Tradfu does not endorse such third party services and content and in no event shall Tradfu be responsible or liable for
+                        any products or services of such third party providers. Additionally, Apple Inc., Google, Inc., Microsoft Corporation or BlackBerry
+                        Limited and/or their applicable international subsidiaries and affiliates will be third-party beneficiaries to this contract if you
+                        access the Services using Applications developed for Apple iOS, Android, Microsoft Windows, or Blackberry-powered mobile devices,
+                        respectively. These third party beneficiaries are not parties to this contract and are not responsible for the provision or support
+                        of the Services in any manner. Your access to the Services using these devices is subject to terms set forth in the applicable third
+                        party beneficiary&rsquo;s terms of service.
+                    </p>
+                    <h2 class="autonumber">Ownership</h2>
+                    <p>
+                        The Services and all rights therein are and shall remain Tradfu&rsquo;s property or the property of Tradfu&rsquo;s licensors. Neither
+                        these Terms nor your use of the Services convey or grant to you any rights: (i) in or related to the Services except for the limited
+                        license granted above; or (ii) to use or reference in any manner Tradfu&rsquo;s company names, logos, product and service names,
+                        trademarks or services marks or those of Tradfu&rsquo;s licensors.
+                    </p>
+
+
+                    <h1 class="autonumberPeriod">Your Use of the Services</h1>
+                    <h2 class="autonumber">User Accounts</h2>
+                    <p>
+                        In order to use most aspects of the Services, you must register for and maintain an active personal user Services account
+                        (&ldquo;<dfn>Account</dfn>&rdquo;). You must be at least 18 years of age, or the age of legal majority in your jurisdiction (if different than 18),
+                        to obtain an Account. Account registration requires you to submit to Tradfu certain personal information, such as your name, address,
+                        mobile phone number and age, as well as at least one valid payment method (either a credit card or accepted payment partner). You agree
+                        to maintain accurate, complete, and up-to-date information in your Account. Your failure to maintain accurate, complete, and up-to-date
+                        Account information, including having an invalid or expired payment method on file, may result in your inability to access and use the
+                        Services or Tradfu&rsquo;s termination of these Terms with you. You are responsible for all activity that occurs under your Account,
+                        and you agree to maintain the security and secrecy of your Account username and password at all times. Unless otherwise permitted by
+                        Tradfu in writing, you may only possess one Account.
+                    </p>
+                    <h2 class="autonumber">User Requirements and Conduct</h2>
+                    <p>
+                        The Service is not available for use by persons under the age of 18. You may not authorize third parties to use your Account, and
+                        you may not allow persons under the age of 18 to receive transportation or logistics services from Third Party Providers unless
+                        they are accompanied by you. You may not assign or otherwise transfer your Account to any other person or entity. You agree to
+                        comply with all applicable laws when using the Services, and you may only use the Services for lawful purposes (e.g., no transport
+                        of unlawful or hazardous materials). You will not, in your use of the Services, cause nuisance, annoyance, inconvenience, or
+                        property damage, whether to the Third Party Provider or any other party. In certain instances, you may be asked to provide proof
+                        of identity to access or use the Services, and you agree that you may be denied access to or use of the Services if you refuse
+                        to provide proof of identity.
+                    </p>
+                    <h2 class="autonumber">Text Messaging</h2>
+                    <!-- todo push notifications, create an sms opt out form rather than email?-->
+                    <p>
+                        By creating an Account, you agree that the Services may send you informational text (SMS) messages as part of the normal business
+                        operation of your use of the Services. You may opt-out of receiving text (SMS) messages from Tradfu at any time by sending an
+                        email to support@Tradfu.com indicating that you no longer wish to receive such messages, along with the phone number of the mobile
+                        device receiving the messages. You acknowledge that opting out of receiving text (SMS) messages may impact your use of the Services.
+                    </p>
+                    <h2 class="autonumber">Promotional Codes</h2>
+                    <p>
+                        Tradfu may, in Tradfu&rsquo;s sole discretion, create promotional codes that may be redeemed for Account credit, or other features
+                        or benefits related to the Services and/or a Third Party Provider&rsquo;s services, subject to any additional terms that Tradfu
+                        establishes on a per promotional code basis (&ldquo;<dfn>Promo Codes</dfn>&rdquo;). You agree that Promo Codes: (i) must be used for the
+                        intended audience and purpose, and in a lawful manner; (ii) may not be duplicated, sold or transferred in any manner, or made
+                        available to the general public (whether posted to a public form or otherwise), unless expressly permitted by Tradfu; (iii) may be
+                        disabled by Tradfu at any time for any reason without liability to Tradfu; (iv) may only be used pursuant to the specific terms
+                        that Tradfu establishes for such Promo Code; (v) are not valid for cash; and (vi) may expire prior to your use. Tradfu reserves
+                        the right to withhold or deduct credits or other features or benefits obtained through the use of Promo Codes by you or any
+                        other user in the event that Tradfu determines or believes that the use or redemption of the Promo Code was in error, fraudulent,
+                        illegal, or in violation of the applicable Promo Code terms or these Terms.
+                    </p>
+                    <h2 class="autonumber">User Provided Content</h2>
+                    <p>
+                        Tradfu may, in Tradfu&rsquo;s sole discretion, permit you from time to time to submit, upload, publish or otherwise make available
+                        to Tradfu through the Services textual, audio, and/or visual content and information, including commentary and feedback related to
+                        the Services, initiation of support requests, and submission of entries for competitions and promotions (&ldquo;<dfn>User Content</dfn>&rdquo;).
+                        Any User Content provided by you remains your property. However, by providing User Content to Tradfu, you grant Tradfu a worldwide,
+                        perpetual, irrevocable, transferrable, royalty-free license, with the right to sublicense, to use, copy, modify, create derivative
+                        works of, distribute, publicly display, publicly perform, and otherwise exploit in any manner such User Content in all formats and
+                        distribution channels now known or hereafter devised (including in connection with the Services and Tradfu&rsquo;s business and on
+                        third-party sites and services), without further notice to or consent from you, and without the requirement of payment to you or
+                        any other person or entity.
+                    </p>
+                    <p>
+                        You represent and warrant that: (i) you either are the sole and exclusive owner of all User Content or you have all rights, licenses,
+                        consents and releases necessary to grant Tradfu the license to the User Content as set forth above; and (ii) neither the User Content
+                        nor your submission, uploading, publishing or otherwise making available of such User Content nor Tradfu&rsquo;s use of the User
+                        Content as permitted herein will infringe, misappropriate or violate a third party&rsquo;s intellectual property or proprietary rights,
+                        or rights of publicity or privacy, or result in the violation of any applicable law or regulation.
+                    </p>
+                    <p>
+                        You agree to not provide User Content that is defamatory, libellous, hateful, violent, obscene, pornographic, unlawful, or otherwise
+                        offensive, as determined by Tradfu in its sole discretion, whether or not such material may be protected by law. Tradfu may, but shall
+                        not be obligated to, review, monitor, or remove User Content, at Tradfu&rsquo;s sole discretion and at any time and for any reason,
+                        without notice to you.
+                    </p>
+                    <h2 class="autonumber">Network Access and Devices</h2>
+                    <p>
+                        You are responsible for obtaining the data network access necessary to use the Services. Your mobile network&rsquo;s data and
+                        messaging rates and fees may apply if you access or use the Services from a wireless-enabled device and you shall be responsible
+                        for such rates and fees. You are responsible for acquiring and updating compatible hardware or devices necessary to access and use
+                        the Services and Applications and any updates thereto. Tradfu does not guarantee that the Services, or any portion thereof, will
+                        function on any particular hardware or devices. In addition, the Services may be subject to malfunctions and delays inherent in
+                        the use of the Internet and electronic communications.
+                    </p>
+
+
+                    <h1 class="autonumberPeriod">Payment</h1>
+                    <p>
+                        You understand that use of the Services may result in charges to you for the services or goods you receive from a Third Party Provider
+                        (&ldquo;<dfn>Charges</dfn>&rdquo;). After you have received services or goods obtained through your use of the Service, Tradfu will facilitate
+                        your payment of the applicable Charges on behalf of the Third Party Provider as such Third Party Provider&rsquo;s limited payment
+                        collection agent. Payment of the Charges in such manner shall be considered the same as payment made directly by you to the Third
+                        Party Provider. Charges will be inclusive of applicable taxes where required by law. Charges paid by you are final and non-refundable,
+                        unless otherwise determined by Tradfu. You retain the right to request lower Charges from a Third Party Provider for services or goods
+                        received by you from such Third Party Provider at the time you receive such services or goods. Tradfu will respond accordingly to any
+                        request from a Third Party Provider to modify the Charges for a particular service or good.
+                    </p>
+                    <p>
+                        All Charges are due immediately and payment will be facilitated by Tradfu using the preferred payment method designated in your Account,
+                        after which Tradfu will send you a receipt by email. If your primary Account payment method is determined to be expired, invalid or
+                        otherwise not able to be charged, you agree that Tradfu may, as the Third Party Provider&rsquo;s limited payment collection agent,
+                        use a secondary payment method in your Account, if available.
+                    </p>
+                    <p>
+                        As between you and Tradfu, Tradfu reserves the right to establish, remove and/or revise Charges for any or all services or goods
+                        obtained through the use of the Services at any time in Tradfu&rsquo;s sole discretion. Further, you acknowledge and agree that
+                        Charges applicable in certain geographical areas may increase substantially during times of high demand. Tradfu will use reasonable
+                        efforts to inform you of Charges that may apply, provided that you will be responsible for Charges incurred under your Account
+                        regardless of your awareness of such Charges or the amounts thereof. Tradfu may from time to time provide certain users with
+                        promotional offers and discounts that may result in different amounts charged for the same or similar services or goods obtained
+                        through the use of the Services, and you agree that such promotional offers and discounts, unless also made available to you,
+                        shall have no bearing on your use of the Services or the Charges applied to you. You may elect to cancel your request for services
+                        or goods from a Third Party Provider at any time prior to such Third Party Provider&rsquo;s arrival, in which case you may be
+                        charged a cancellation fee.  Additionally, Third Party Providers can elect to cancel the provision of service at any time prior
+                        to the set start time, in which case you may be charged a cancellation fee.
+                    </p>
+                    <p>
+                        This payment structure is intended to fully compensate the Third Party Provider for the services or goods provided.  Any
+                        representation by Tradfu (on Tradfu&rsquo;s website, in the Application, or in Tradfu&rsquo;s marketing materials) to the
+                        effect that tipping is &ldquo;voluntary,&rdquo; &ldquo;not required,&rdquo; and/or &ldquo;included&rdquo; in the payments
+                        you make for services or goods provided is not intended to suggest that Tradfu provides any additional amounts, beyond those
+                        described above, to the Third Party Provider. You understand and agree that, while you are free to provide additional payment
+                        as a gratuity to any Third Party Provider who provides you with services or goods obtained through the Service, you are under
+                        no obligation to do so. Gratuities are voluntary. After you have received services or goods obtained through the Service, you
+                        will have the opportunity to rate your experience and leave additional feedback about your Third Party Provider.
+                    </p>
+
+                    <!--
+                      Note: that this header row is wrapped in a span with the assigned id and the class jumptarget,
+                            this is used to offset the header when using an anchor to jump to a bookmark on a page.
+                            Unfortunatly assigning the id and the class jumptarget to the header row does not work as the chapter number gets moved
+                    -->
+                    <span id="disclaimersLimitationLiability" class="jumptarget">
+                        <h1 class="autonumberPeriod">Disclaimers; Limitation of Liability; Indemnity</h1>
+                    </span>
+                    <h2 class="autonumber">DISCLAIMER</h2>
+                    <p>
+                        THE SERVICES ARE PROVIDED &ldquo;AS IS&rdquo; AND &ldquo;AS AVAILABLE.&rdquo; TRADFU DISCLAIMS ALL REPRESENTATIONS AND WARRANTIES,
+                        EXPRESS, IMPLIED OR STATUTORY, NOT EXPRESSLY SET OUT IN THESE TERMS, INCLUDING THE IMPLIED WARRANTIES OF MERCHANTABILITY,
+                        FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN ADDITION, TRADFU MAKES NO REPRESENTATION, WARRANTY, OR GUARANTEE
+                        REGARDING THE RELIABILITY, TIMELINESS, QUALITY, SUITABILITY OR AVAILABILITY OF THE SERVICES OR ANY SERVICES OR GOODS REQUESTED
+                        THROUGH THE USE OF THE SERVICES, OR THAT THE SERVICES WILL BE UNINTERRUPTED OR ERROR-FREE. TRADFU DOES NOT GUARANTEE THE QUALITY,
+                        SUITABILITY, SAFETY OR ABILITY OF THIRD PARTY PROVIDERS. YOU AGREE THAT THE ENTIRE RISK ARISING OUT OF YOUR USE OF THE SERVICES,
+                        AND ANY SERVICE OR GOOD REQUESTED IN CONNECTION THEREWITH, REMAINS SOLELY WITH YOU, TO THE MAXIMUM EXTENT PERMITTED UNDER APPLICABLE LAW.
+                    </p>
+                    <h2 class="autonumber">LIMITATION OF LIABILITY</h2>
+                    <p>
+                        TRADFU SHALL NOT BE LIABLE FOR INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, PUNITIVE OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS,
+                        LOST DATA, PERSONAL INJURY OR PROPERTY DAMAGE RELATED TO, IN CONNECTION WITH, OR OTHERWISE RESULTING FROM ANY USE OF THE SERVICES,
+                        EVEN IF TRADFU HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. TRADFU SHALL NOT BE LIABLE FOR ANY DAMAGES, LIABILITY OR LOSSES
+                        ARISING OUT OF: (i) YOUR USE OF OR RELIANCE ON THE SERVICES OR YOUR INABILITY TO ACCESS OR USE THE SERVICES; OR (ii) ANY TRANSACTION
+                        OR RELATIONSHIP BETWEEN YOU AND ANY THIRD PARTY PROVIDER, EVEN IF TRADFU HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. TRADFU
+                        SHALL NOT BE LIABLE FOR DELAY OR FAILURE IN PERFORMANCE RESULTING FROM CAUSES BEYOND TRADFU&rsquo;S REASONABLE CONTROL. YOU ACKNOWLEDGE
+                        THAT THIRD PARTY TRANSPORTATION PROVIDERS PROVIDING TRANSPORTATION SERVICES REQUESTED THROUGH SOME REQUEST BRANDS MAY OFFER RIDESHARING
+                        OR PEER-TO-PEER TRANSPORTATION SERVICES AND MAY NOT BE PROFESSIONALLY LICENSED OR PERMITTED. IN NO EVENT SHALL TRADFU&rsquo;S TOTAL
+                        LIABILITY TO YOU IN CONNECTION WITH THE SERVICES FOR ALL DAMAGES, LOSSES AND CAUSES OF ACTION EXCEED FIVE HUNDRED AUSTRALIAN DOLLARS ($500).
+                    </p>
+                    <p>
+                        TRADFU&rsquo;S SERVICES MAY BE USED BY YOU TO REQUEST AND SCHEDULE REPAIR, MAINTENANCE OR IMPROVEMENT SERVICES WITH THIRD PARTY PROVIDERS,
+                        BUT YOU AGREE THAT TRADFU HAS NO RESPONSIBILITY OR LIABILITY TO YOU RELATED TO ANY REPAIR, MAINTENANCE OR IMPROVEMENT SERVICES PROVIDED
+                        TO YOU BY THIRD PARTY PROVIDERS OTHER THAN AS EXPRESSLY SET FORTH IN THESE TERMS.
+                    </p>
+                    <p>
+                        THE LIMITATIONS AND DISCLAIMER IN THIS SECTION &lsquo;<a href="#disclaimersLimitationLiability"><span class="currentSection uppercase">Disclaimers;
+                        Limitation of Liability; Indemnity<span></a>&rsquo; DO NOT PURPORT TO LIMIT LIABILITY OR ALTER YOUR RIGHTS AS A CONSUMER THAT CANNOT
+                        BE EXCLUDED UNDER APPLICABLE LAW.
+                    </p>
+                    <h2 class="autonumber">Indemnity</h2>
+                    <p>
+                        You agree to indemnify and hold Tradfu and its officers, directors, employees and agents harmless from any and all claims, demands, losses,
+                        liabilities, and expenses (including attorneys&rsquo; fees) arising out of or in connection with: (i) your use of the Services or services
+                        or goods obtained through your use of the Services; (ii) your breach or violation of any of these Terms; (iii) Tradfu&rsquo;s use of your
+                        User Content; or (iv) your violation of the rights of any third party, including Third Party Providers.
+                    </p>
+
+
+                    <h1 class="autonumberPeriod">Cancelations, Refunds and Dispute Resolution</h1>
+                    <h2 class="autonumber">Cancellation</h2>
+                    <h3 class="autonumber">Customer Cancellations:</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                Customers can search for jobs at <a href="www.tradfu.com">www.Tradfu.com</a> free of charge.
+                            </li>
+                            <li>
+                                When a third party contractor accepts a customer job request, it is the customer&rsquo;s obligation to ensure sufficient funds are
+                                in the nominated account in the customer profile. Account details can be updated in the account section of the application
+                                or at <a href="www.tradfu.com">www.Tradfu.com</a>.
+                            </li>
+                            <li>
+                                When a third party contractor accepts a customer job request, it is the customers obligation to ensure sufficient funds are in the nominated
+                                account in the customer profile.
+                            </li>
+                            <li>
+                                To avoid service fees for the customer, cancellation must be requested no sooner than 24 hours from the time of booking. For example.
+                                If a cleaning service has been requested for Friday at 2pm (AEST), the customer must send written correspondence via instant message
+                                to the service provider prior to Thursday 2pm (AEST), the day before. If it is cancelled within 24 hours, but outside 3 hours, customer
+                                will be charged 50% of service fees. Any cancellations made within 3 hours, of the booking time will result in the full amount, being
+                                charged to the customer.
+                            </li>
+                            <li>
+                                You are entitled to cancel a customer account at anytime without penalty, by emailing support@tradfu.com. Tradfu
+                                will endeavour to respond to your request within 48 hours. Tradfu reserves the right to hold any data or information that you
+                                have provided for the duration of your account.
+                            </li>
+                        </ul>
+                    </p>
+                    <h3 class="autonumber">Business cancellations:</h3>
+                    <p>
+                        <ul>
+                            <li>
+                                Tradfu is a free service for businesses to use, there is no joining or subscription fees associated. A negotiated commission
+                                percentage will be charged from the service fees upon completion of the job.
+                            </li>
+                            <li>
+                                If a third party contractor cancels a job no sooner than 24 hours from the time of booking by selecting the cancel job button, the job will be
+                                reassigned for any business to accept. If the third party contractor need to cancel a job within 24 hours, the third party contractor will need to select the
+                                delay job button enabling a message to be sent to the customer for another suitable timeframe. Failure for customer to accept
+                                new time with third party contractor will result in reassignment of job to another business and the option for customer to penalise the third party contractor
+                                using the Tradfu rating system.
+                            </li>
+                            <li>
+                                There is no lock in contracts or waiting periods for leaving our service, so you are free to leave our platform as you desire,
+                                without penalty.
+                            </li>
+                        </ul>
+                    </p>
+                    <h2 class="autonumber">Refunds</h2>
+                    <p>
+                        If you are unhappy with the service of a Service a complaint can be submitted to support@tradfu.com outlining the
+                        reasons for your grievance, Tradfu will attempt to resolve the issue by contacting you and/or the third party suppliers. In
+                        consideration, Tradfu will at its absolute discretion either:
+                    </p>
+                    <p>
+                        <ul>
+                            <li>
+                                Deny the claim;
+                            </li>
+                            <li>
+                                Offer you a credit on your Tradfu account; or
+                            </li>
+                            <li>
+                                Request the third party contractor refund your payment.
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        If we determine you are entitled to a payment refund, you agree to accept the refund amount by Australian bank transfer or any other
+                        payment method which Tradfu opts to use, regardless of the payment method you used at the time of sale.
+                    </p>
+                    <h2 class="autonumber">Dispute Resolution</h2>
+                    <p>
+                        <ul>
+                            <li>
+                                If a dispute arrives between the customer or third party contractor in relation to any part of a service
+                                provided, a dispute request must be submitted by either party by emailing support@tradfu.com, within 48 hours
+                                of the occurrence. <a href="www.tradfu.com">www.Tradfu.com</a> use attempt to mediate and
+                                investigate the matter and outcome will be at the discretion of <a href="www.tradfu.com">www.Tradfu.com</a>.
+                                The matter can be referred to an external mediator or dispute resolution service to assist with resolving the matter.
+                            </li>
+                            <li>
+                                <a href="www.tradfu.com">www.Tradfu.com</a> believes effective communication using our
+                                instant messaging system between both parties, customer and third party supplier, is the most effective way of avoiding disputes,
+                                prior to the service provided.
+                            </li>
+                        </ul>
+                    </p>
+
+                    <h1 class="autonumberPeriod">Other Provisions</h1>
+                    <h2 class="autonumber">Claims of Copyright Infringement</h2>
+                    <p>
+                        Claims of copyright infringement should be sent to Tradfu&rsquo;s designated agent. Please visit Tradfu&rsquo;s web page at
+                        <a href="www.tradfu.com">www.Tradfu.com</a> for the designated address and
+                        additional information.
+                    </p>
+                    <h2 class="autonumber">Notice</h2>
+                    <p>
+                        Tradfu may give notice by means of a general notice on the Services, electronic mail to your email address in your Account,
+                        or by written communication sent to your address as set forth in your Account. You may give notice to Tradfu by written
+                        communication to Tradfu&rsquo;s address at 133 Woodlands Drive, Thornlands QLD 4164.
+                    </p>
+                    <h2 class="autonumber">General</h2>
+                    <p>
+                        You may not assign or transfer these Terms in whole or in part without Tradfu&rsquo;s prior written approval. You give your
+                        approval to Tradfu for it to assign or transfer these Terms in whole or in part, including to: (i) a subsidiary or affiliate;
+                        (ii) an acquirer of Tradfu&rsquo;s equity, business or assets; or (iii) a successor by merger. No joint venture, partnership,
+                        employment or agency relationship exists between you, Tradfu or any Third Party Provider as a result of the contract between
+                        you and Tradfu or use of the Services.
+                    </p>
+                    <p>
+                        If any provision of these Terms is held to be illegal, invalid or unenforceable, in whole or in part, under any law, such
+                        provision or part thereof shall to that extent be deemed not to form part of these Terms but the legality, validity and
+                        enforceability of the other provisions in these Terms shall not be affected. In that event, the parties shall replace the
+                        illegal, invalid or unenforceable provision or part thereof with a provision or part thereof that is legal, valid and
+                        enforceable and that has, to the greatest extent possible, a similar effect as the illegal, invalid or unenforceable
+                        provision or part thereof, given the contents and purpose of these Terms. These Terms constitute the entire agreement
+                        and understanding of the parties with respect to its subject matter and replaces and supersedes all prior or contemporaneous
+                        agreements or undertakings regarding such subject matter. In these Terms, the words &ldquo;<dfn title="Including, but not limited to">including</dfn>&rdquo; and &ldquo;<dfn title="Including, but not limited to">include</dfn>&rdquo;
+                        mean &ldquo;including, but not limited to.&rdquo;
+                    </p>
+
+                </div>
+
+            </div><!--/.col-xs-12.col-sm-9-->
+        </div><!--/row-->
+        <hr>
+    </div><!--/.container-->
+		<footer class="footer">
+			<nav class="navbar navbar-bottom navbar-inverse">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+
+							<!-- Footer menu - contact us, media etc -->
+							<div class="row">
+								<!-- Footer top - Left menu -->
+								<ul class="nav navbar-nav">
+                  <li><a href='about.html'><span>About Us</span></a></li>
+									<li><a href='contactUs.html'><span>Contact Us</span></a></li>
+								</ul>
+
+								<!-- Footer top - Right menu -->
+								<!-- Social Media links -->
+								<div class="navbar-right">
+									<a href="https://www.facebook.com/Tradfu" target="_blank" class="footer_social">
+										<span class="sr-only">Facebook</span>
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a href="https://www.linkedin.com/company/tradfu" target="_blank" class="footer_social">
+										<span class="sr-only">LinkedIn</span>
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</div>
+
+							</div><!--/row-->
+
+							<div class="row secondary">
+
+								<!-- Footer bottom - Left menu -->
+								<!-- Copyright / Privacy / terms -->
+								<ul class="nav navbar-nav">
+                  <li><a href='privacy.html'><span>Privacy</span></a></li>
+                  <li><a href='terms.html'><span>Terms</span></a></li>
+									<li><span><span>&copy; 2016 Tradfu Holdings Pty Ltd.</span></span></li>
+								</ul>
+							</div><!--/row-->
+
+						</div><!--/.col-xs-12.col-sm-9-->
+					</div><!--/row-->
+				</div><!-- /.container -->
+			</nav><!-- /.navbar -->
+		</footer>
+
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) - stay below v2.x.x to support IE8 -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="/js/ie10-viewport-bug-workaround.js"></script>
+
+	</body>
+</html>

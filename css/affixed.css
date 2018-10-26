@@ -1,0 +1,5 @@
+/* Does not play nice with css from notaffixed.css - this is to be used on pages where affix is used (often in conjunction with scrollspy) */
+
+body {
+    position: relative;
+}

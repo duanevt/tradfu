@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 333 683" height="683" width="333">
+	<title>Decorative Illustration</title>
+	<desc>Decorative Illustration</desc>
+	<style>
+		#fake-illo-layer,#home-illo-layer{background:0 0}
+	</style>
+	<defs>
+		<clipPath id="a___1785480744">
+			<path d="M305.49 578.16a5 5 0 0 1-5 5H49.88a5 5 0 0 1-5-5V68.66a5 5 0 0 1 5-5H300.5a5 5 0 0 1 5 5v509.5z" fill="none"></path>
+		</clipPath>
+		<clipPath id="b___1785480744">
+			<path fill="none" d="M174.52 322.27h130V452.2h-130z"></path>
+		</clipPath>
+		<pattern id="c___1785480744" data-name="SVGID 46" width="5" height="5" patternTransform="matrix(1 0 0 -1 -1141.2 -16068.9)" patternUnits="userSpaceOnUse" viewBox="0 0 5 5">
+			<path fill="none" d="M0 0h5v5H0z"></path>
+			<path fill="none" d="M0 0h5v5H0z"></path>
+			<path fill="none" d="M0 5h5V0H0v5z"></path>
+			<path fill="none" d="M5 0H0v5h5V0z"></path>
+			<path d="M2 3H0v2h2V3z"></path>
+		</pattern>
+		<pattern id="d___1785480744" data-name="SVGID 21" width="5" height="5" patternTransform="matrix(1 0 0 -1 -1038.4 -16006.2)" patternUnits="userSpaceOnUse" viewBox="0 0 5 5">
+			<path fill="none" d="M0 0h5v5H0z"></path>
+			<path fill="none" d="M0 0h5v5H0z"></path>
+			<path fill="none" d="M0 5h5V0H0v5z"></path>
+			<path fill="none" d="M5 0H0v5h5V0z"></path>
+			<path fill="#434343" d="M2 3H0v2h2V3z"></path>
+		</pattern>
+	</defs>
+	<g clip-path="url(#a___1785480744)" id="fake-illo-layer___1785480744">
+		<g class="home-illo-layer" id="home-illo-layer___1785480744" style="transform: translateY(-66.6666%);">
+			<path class="illustration-primary-fill" d="M44.48 1101.88h260v129.93h-260z"></path>
+			<path class="illustration-secondary-fill" d="M44.5 583.57h260v172.91h-260V583.57z"></path>
+		</g>
+	</g>
+	<path d="M330.1 47.87a45 45 0 0 0-45-45H65.27a45 45 0 0 0-45 45v549.64a45 45 0 0 0 45 45h219.84a45 45 0 0 0 45-45V47.87zm-24.61 530.29a5 5 0 0 1-5 5H49.88a5 5 0 0 1-5-5V68.66a5 5 0 0 1 5-5H300.5a5 5 0 0 1 5 5v509.5z" fill="#fff"></path>
+	<path d="M183 603.67a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2h-16a2 2 0 0 1-2-2v-16a2 2 0 0 1 2-2h16m0-3h-16a5 5 0 0 0-5 5v16a5 5 0 0 0 5 5h16a5 5 0 0 0 5-5v-16a5 5 0 0 0-5-5z" fill="#ececec"></path>
+	<path d="M285 3a45 45 0 0 1 45 45v549.63a45 45 0 0 1-45 45H64.94a45 45 0 0 1-44.94-45V48A45 45 0 0 1 65 3h220.06m0-3H65a48 48 0 0 0-48 48v549.63a48 48 0 0 0 48 48h220.06a48 48 0 0 0 47.94-48V48a48 48 0 0 0-48-48h.06z" fill="#ececec"></path>
+	<path d="M285 642.48H64.94a44.62 44.62 0 0 1-44.67-44.58V48a44.73 44.73 0 0 1 15.4-34A45.11 45.11 0 0 0 0 58v579.65A45.3 45.3 0 0 0 45 683h220a45.17 45.17 0 0 0 44.88-45.35v-2.58a44.35 44.35 0 0 1-24.88 7.41z" fill="#ececec"></path>
+</svg>

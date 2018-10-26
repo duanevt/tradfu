@@ -1,0 +1,1121 @@
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  src: url('http://fonts.gstatic.com/s/roboto/v15/5YB-ifwqHP20Yn46l_BDhA.eot');
+  src: url('http://fonts.gstatic.com/s/roboto/v15/5YB-ifwqHP20Yn46l_BDhA.eot?#iefix') format('embedded-opentype'),
+       local('Roboto'),
+       local('Roboto-regular'),
+       url('http://fonts.gstatic.com/s/roboto/v15/oMMgfZMQthOryQo9n22dcuvvDin1pK8aKteLpeZ5c0A.woff2') format('woff2'),
+       url('http://fonts.gstatic.com/s/roboto/v15/CrYjSnGjrRCn0pd9VQsnFOvvDin1pK8aKteLpeZ5c0A.woff') format('woff'),
+       url('http://fonts.gstatic.com/s/roboto/v15/zN7GBFwfMP4uA6AR0HCoLQ.ttf') format('truetype'),
+       url('http://fonts.gstatic.com/l/font?kit=_YZOZaQ9UBZzaxiLBLcgZg&skey=a0a0114a1dcab3ac&v=v15#Roboto') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  font-style: normal;
+  src: url('http://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUffY6323mHUZFJMgTvxaG2iE.eot');
+  src: url('http://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUffY6323mHUZFJMgTvxaG2iE.eot?#iefix') format('embedded-opentype'),
+       local('Roboto Light'),
+       local('Roboto-300'),
+       url('http://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfZBw1xU1rKptJj_0jans920.woff2') format('woff2'),
+       url('http://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfbO3LdcAZYWl9Si6vvxL-qU.woff') format('woff'),
+       url('http://fonts.gstatic.com/s/roboto/v15/Hgo13k-tfSpn0qi1SFdUfaCWcynf_cDxXwCLxiixG1c.ttf') format('truetype'),
+       url('http://fonts.gstatic.com/l/font?kit=Hgo13k-tfSpn0qi1SFdUfZbd9NUM7myrQQz30yPaGQ4&skey=11ce8ad5f54705ca&v=v15#Roboto') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-style: normal;
+  src: url('http://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUfY6323mHUZFJMgTvxaG2iE.eot');
+  src: url('http://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUfY6323mHUZFJMgTvxaG2iE.eot?#iefix') format('embedded-opentype'),
+       local('Roboto Medium'),
+       local('Roboto-500'),
+       url('http://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUZBw1xU1rKptJj_0jans920.woff2') format('woff2'),
+       url('http://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUbO3LdcAZYWl9Si6vvxL-qU.woff') format('woff'),
+       url('http://fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUaCWcynf_cDxXwCLxiixG1c.ttf') format('truetype'),
+       url('http://fonts.gstatic.com/l/font?kit=RxZJdnzeo3R5zSexge8UUZbd9NUM7myrQQz30yPaGQ4&skey=ee881451c540fdec&v=v15#Roboto') format('svg');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 100;
+  font-style: normal;
+  src: url('http://fonts.gstatic.com/s/roboto/v15/PP2U5prMl9yvKSWVu6DtvPesZW2xOQ-xsNqO47m55DA.eot');
+  src: url('http://fonts.gstatic.com/s/roboto/v15/PP2U5prMl9yvKSWVu6DtvPesZW2xOQ-xsNqO47m55DA.eot?#iefix') format('embedded-opentype'),
+       local('Roboto Thin'),
+       local('Roboto-100'),
+       url('http://fonts.gstatic.com/s/roboto/v15/2tsd397wLxj96qwHyNIkxHYhjbSpvc47ee6xR_80Hnw.woff2') format('woff2'),
+       url('http://fonts.gstatic.com/s/roboto/v15/vzIUHo9z-oJ4WgkpPOtg13YhjbSpvc47ee6xR_80Hnw.woff') format('woff'),
+       url('http://fonts.gstatic.com/s/roboto/v15/Jzo62I39jc0gQRrbndN6nfesZW2xOQ-xsNqO47m55DA.ttf') format('truetype'),
+       url('http://fonts.gstatic.com/l/font?kit=hfaguKg3-IA6kBbQw6DBafesZW2xOQ-xsNqO47m55DA&skey=5473b731ec7fc9c1&v=v15#Roboto') format('svg');
+}
+
+html {
+    font-size: .875em;
+}
+
+body {
+    padding-top: 50px;
+    font-family: 'Roboto', "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* text position adjustment for new font */
+#navbar ul a{
+    padding-top: 16px;
+    padding-bottom: 14px;
+}
+
+.jumbotron p{
+    font-weight:300;
+}
+
+/* transparent background for jumbotron */
+.jumbotron.transparent {
+    background-color: transparent;
+}
+/* black background color for jumbotron - not used */
+.jumbotron.black {
+	background-color: #000000;
+}
+
+footer .navbar{
+    border-radius: 0;
+    margin-bottom: 0;
+    border-width: 0;
+    font-size: 13px
+}
+footer .navbar li>a{
+    padding: 10px 0px;
+}
+footer .navbar li>a>span{
+    padding: 0px 15px;
+}
+
+div.navbar-right{
+    padding: 10px 0px;
+    color: #fff;
+}
+
+footer .navbar-inverse div.navbar-right > a{
+    color: #9d9d9d;
+    padding-right: 15px;
+}
+footer .navbar-inverse div.navbar-right > a+a{
+    margin-left: 10px;
+}
+
+footer .navbar-inverse div.navbar-right > a:hover,
+footer .navbar-inverse div.navbar-right > a:focus {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* -- if you wish to align the RHS social button with the RHS of the lower footer buttons use this
+footer .navbar-inverse div.navbar-right > a:last-child{
+    padding-right: 0px;
+}
+*/
+
+
+.navbar .secondary{
+    font-size:11px;
+}
+.navbar .secondary li>a{
+    padding: 10px 0px;
+}
+.navbar .secondary li>a>span{
+    padding: 0px 15px;
+}
+.navbar .secondary li>span{
+    position: relative;
+    display: block;
+    padding: 10px 0px;
+}
+.navbar .secondary li>span>span{
+    padding: 0px 15px;
+    line-height: 20px;
+}
+footer .minor{
+    padding: 0px;
+    font-size: 11px;
+    margin: 0px;
+}
+footer .minor p{
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px) {
+	/* navbar-nav had a -15px margin in navbar.less causing scrollbars to appear here and there */
+	.navbar-nav {
+		margin: 7.5px 0px;
+	}
+	/* left align social media icons with other menu items */
+	div.navbar-right{
+		padding-left: 15px;
+	}
+}
+
+@media screen and (min-width: 480px) {
+    footer .navbar .secondary li+li>a>span{
+        border-left:1px solid grey;
+    }
+    footer .navbar .secondary li+li>span>span{
+        border-left:1px solid grey;
+    }
+}
+
+@media screen and (min-width: 768px) {
+	footer .navbar-inverse .navbar-nav>.active>a, 
+	footer .navbar-inverse .navbar-nav>.active>a:focus, 
+	footer .navbar-inverse .navbar-nav>.active>a:hover {
+		background-color: transparent;
+	}
+	
+	/* navbar-right had a -15px margin in navbar.less causing scrollbars to appear here and there */
+	.navbar-right {
+		margin-right:0px;
+	}
+}
+
+
+/* Affix styles */
+.affix {
+    top: 70px;
+    width: 453px;
+}
+
+.affix-top {
+    width: 453px;
+}
+
+.affix-bottom {
+    position: absolute;
+    width: 453px;
+}
+
+@media (min-width:1200px) {
+    .affix, 
+    .affix-bottom {
+        width: 453px;
+    }
+}
+
+
+/* scrollspy nav styles */
+
+.scrollspy .nav .active {
+    font-weight: bold;
+}
+
+/* indicator box */
+.indicator{
+    width: 22px;
+    display: inline-block;
+}
+
+.indicator ul.nav{
+    width: 22px;
+    padding-top: 120px;
+}
+
+.indicator .nav > li {
+    display: inline-block;
+}
+/* indicator box - end */
+
+
+/* Scroll spy - Anchor icons */
+.indicator ul li.active a .fa,
+.indicator ul li a > .fa + .fa {
+    display: none;
+}
+
+.indicator ul li.active a > .fa + .fa {
+    display: inline;
+}
+
+.indicator ul li a .fa-circle{
+    font-size: 8px;
+    padding-left: 3px;
+    line-height: 20px
+}
+
+.indicator .nav > li > a {
+    padding-left:5px;
+    padding-right:5px;
+    display: inline-block;
+}
+
+.indicator .nav > li > a {
+    color: #000000;
+}
+.indicator .nav>li>a:focus, .indicator .nav>li>a:hover {
+    background-color: transparent;
+    color: #333333;
+}
+/* Scroll spy - Anchor icons - end */
+
+
+/* mobile phone image box */
+.picdiv{
+    width: 428px;
+    height: 423px;
+    float: right;
+}
+
+.mobileImage{
+    width: 333px;
+    height: 423px;
+    display: flex;
+    background: url('/images/mobilebkg.svg');
+    /*background-size: 333px 423px;*/
+    background-repeat: no-repeat;
+    background-size: 215px 423px;
+    background-position: center;
+}
+
+
+/* mobile phone screen images */
+
+#spyImage {
+    position:relative;
+    height:355px;
+    width:450px;
+    margin:0 auto 10px;
+    padding-top: 30px;
+    margin-left: 88px;
+    margin-bottom: 74px;
+}
+#spyImage img {
+	border: 1px solid;
+	border-color: #eeeeee;
+    border-radius: 5px;
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    opacity:0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+}
+
+#spyImage img.opaque {
+    opacity:1;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=1);
+}
+
+/* mobile phone image box - end*/
+
+/* Featured image cards used when scrollspy scroll effect is collapsed */
+.featureImage{
+    display: flex;
+}
+
+.featureImage img{
+	margin: auto;
+}
+
+
+/* padding used in section elements when scrollspy scroll effect is visible */
+.cardspacer{
+    padding-bottom: 300px;
+}
+.cardspacer.tophalf{
+    padding-top: 150px;
+    padding-bottom: 0px;
+}
+.cardspacer.bottomhalf{
+    padding-bottom: 150px;
+}
+
+.featureImage.two.last{
+    padding-bottom: 10px;
+}
+
+
+/* Scroll spy cards */
+.miniHr {
+	width:30px;
+	height:2px;
+	background-color:#C6C6C6;
+	display: inline-block;
+	margin-top:5px;
+	transform: translateY(25px);
+}
+
+.uniqueSellingProposition a,
+.uniqueSellingProposition a:visited {
+	display: block;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #2473BD;
+	font-size: 14px;
+	font-size: 1rem;
+	font-weight:500;
+}
+
+.uniqueSellingProposition a:hover {
+	color: #5F8DB7;
+}
+
+.uniqueSellingProposition a:hover > span + span {
+	padding-left:2px;
+}
+
+.uniqueSellingProposition a > span + span {
+	transition: all .2s cubic-bezier(.9,0,.1,1)!important;
+	transition:left .4s ease;
+	position:relative;
+	left:0;
+}
+
+.uniqueSellingProposition h3 {
+	font-size:36px;
+	font-size:2.57143rem;
+	line-height:1.22222;
+	font-weight: 300;
+}
+
+.uniqueSellingProposition{
+	font-size:16px;
+	font-size:1.14286rem;
+	line-height:1.75;
+}
+
+@media only screen and (max-width: 767px) {
+	.uniqueSellingProposition h3 {
+		font-size: 20px;
+		font-size: 1.42857rem;
+		line-height: 1.4;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.uniqueSellingProposition h3 {
+		font-size: 24px;
+		font-size: 1.71429rem;
+		line-height: 1.33333;
+	}
+}
+
+@media only screen and (min-width:1025px) and (max-width:1280px){
+	.uniqueSellingProposition p{
+		font-size:16px;
+		line-height:1.75;
+	}
+	.uniqueSellingProposition h3 {
+		font-size: 28px;
+		font-size:2rem;
+		line-height: 1.42857;
+		font-weight: 400;
+	}
+}
+
+@media only screen and (min-width:1281px){
+	.uniqueSellingProposition p{
+		font-size:18px;
+		font-size:1.28571rem;
+		line-height:1.77778;
+		font-weight: 300;
+	}
+}
+
+
+/* button tradfu green */
+.btn-tradfu-green {
+    color: #ffffff;
+    background-color: #12a79d;
+    border-color: #009999;
+}
+.btn-tradfu-green:focus,
+.btn-tradfu-green.focus {
+    color: #ffffff;
+    background-color: #1a8e86;
+    border-color: #206964;
+}
+.btn-tradfu-green:hover {
+    color: #ffffff;
+    background-color: #1a8e86;
+    border-color: #378d8d;
+}
+.btn-tradfu-green:active,
+.btn-tradfu-green.active,
+.open > .dropdown-toggle.btn-tradfu-green {
+    color: #ffffff;
+    background-color: #1a8e86;
+    border-color: #378d8d;
+}
+.btn-tradfu-green:active:hover,
+.btn-tradfu-green.active:hover,
+.open > .dropdown-toggle.btn-tradfu-green:hover,
+.btn-tradfu-green:active:focus,
+.btn-tradfu-green.active:focus,
+.open > .dropdown-toggle.btn-tradfu-green:focus,
+.btn-tradfu-green:active.focus,
+.btn-tradfu-green.active.focus,
+.open > .dropdown-toggle.btn-tradfu-green.focus {
+    color: #ffffff;
+    background-color: #378d8d;
+    border-color: #206964;
+}
+.btn-tradfu-green:active,
+.btn-tradfu-green.active,
+.open > .dropdown-toggle.btn-tradfu-green {
+    background-image: none;
+}
+.btn-tradfu-green.disabled:hover,
+.btn-tradfu-green[disabled]:hover,
+fieldset[disabled] .btn-tradfu-green:hover,
+.btn-tradfu-green.disabled:focus,
+.btn-tradfu-green[disabled]:focus,
+fieldset[disabled] .btn-tradfu-green:focus,
+.btn-tradfu-green.disabled.focus,
+.btn-tradfu-green[disabled].focus,
+fieldset[disabled] .btn-tradfu-green.focus {
+    background-color: #12a79d;
+    border-color: #009999;
+}
+.btn-tradfu-green .badge {
+    color: #12a79d;
+    background-color: #ffffff;
+}
+/* button tradfu end */
+
+/* button tradfu orange - not used */
+.btn-tradfu-orange {
+    color: #ffffff;
+    background-color: #f7931d;
+    border-color: #ff9933;
+}
+.btn-tradfu-orange:focus,
+.btn-tradfu-orange.focus {
+    color: #ffffff;
+    background-color: #e6881a;
+    border-color: #bd7118;
+}
+.btn-tradfu-orange:hover {
+    color: #ffffff;
+    background-color: #e6881a;
+    border-color: #cc6600;
+}
+.btn-tradfu-orange:active,
+.btn-tradfu-orange.active,
+.open > .dropdown-toggle.btn-tradfu-orange {
+    color: #ffffff;
+    background-color: #e6881a;
+    border-color: #cc6600;
+}
+.btn-tradfu-orange:active:hover,
+.btn-tradfu-orange.active:hover,
+.open > .dropdown-toggle.btn-tradfu-orange:hover,
+.btn-tradfu-orange:active:focus,
+.btn-tradfu-orange.active:focus,
+.open > .dropdown-toggle.btn-tradfu-orange:focus,
+.btn-tradfu-orange:active.focus,
+.btn-tradfu-orange.active.focus,
+.open > .dropdown-toggle.btn-tradfu-orange.focus {
+    color: #ffffff;
+    background-color: #cc6600;
+    border-color: #bd7118;
+}
+.btn-tradfu-orange:active,
+.btn-tradfu-orange.active,
+.open > .dropdown-toggle.btn-tradfu-orange {
+    background-image: none;
+}
+.btn-tradfu-orange.disabled:hover,
+.btn-tradfu-orange[disabled]:hover,
+fieldset[disabled] .btn-tradfu-orange:hover,
+.btn-tradfu-orange.disabled:focus,
+.btn-tradfu-orange[disabled]:focus,
+fieldset[disabled] .btn-tradfu-orange:focus,
+.btn-tradfu-orange.disabled.focus,
+.btn-tradfu-orange[disabled].focus,
+fieldset[disabled] .btn-tradfu-orange.focus {
+    background-color: #f7931d;
+    border-color: #ff9933;
+}
+.btn-tradfu-orange .badge {
+    color: #f7931d;
+    background-color: #ffffff;
+}
+/* button tradfu orange - end */
+
+
+
+/* button tradfu inverted-square  - styled for dark backgrounds - not used */
+.btn-tradfu-inverted-square {
+    color: #ffffff;
+    background-color: #000000;
+    border-color: #ffffff;
+	border-radius: 0px;
+}
+.btn-tradfu-inverted-square:focus,
+.btn-tradfu-inverted-square.focus {
+    color: #000000;
+    background-color: #e5e5e4;
+    border-color: #e5e5e4;
+}
+.btn-tradfu-inverted-square:hover {
+    color: #000000;
+    background-color: #e5e5e4;
+    border-color: #e5e5e4;
+}
+
+
+.btn-tradfu-inverted-square:active,
+.btn-tradfu-inverted-square.active,
+.open > .dropdown-toggle.btn-tradfu-inverted-square {
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.btn-tradfu-inverted-square:active:hover,
+.btn-tradfu-inverted-square.active:hover,
+.open > .dropdown-toggle.btn-tradfu-inverted-square:hover,
+.btn-tradfu-inverted-square:active:focus,
+.btn-tradfu-inverted-square.active:focus,
+.open > .dropdown-toggle.btn-tradfu-inverted-square:focus,
+.btn-tradfu-inverted-square:active.focus,
+.btn-tradfu-inverted-square.active.focus,
+.open > .dropdown-toggle.btn-tradfu-inverted-square.focus {
+    color: #000000;
+    background-color: #cdcdcc;
+    border-color: #cdcdcc;
+}
+.btn-tradfu-inverted-square:active,
+.btn-tradfu-inverted-square.active,
+.open > .dropdown-toggle.btn-tradfu-inverted-square {
+    background-image: none;
+}
+.btn-tradfu-inverted-square.disabled:hover,
+.btn-tradfu-inverted-square[disabled]:hover,
+fieldset[disabled] .btn-tradfu-inverted-square:hover,
+.btn-tradfu-inverted-square.disabled:focus,
+.btn-tradfu-inverted-square[disabled]:focus,
+fieldset[disabled] .btn-tradfu-inverted-square:focus,
+.btn-tradfu-inverted-square.disabled.focus,
+.btn-tradfu-inverted-square[disabled].focus,
+fieldset[disabled] .btn-tradfu-inverted-square.focus {
+    background-color: #000000;
+    border-color: #ffffff;
+}
+.btn-tradfu-inverted-square .badge {
+    color: #000000;
+    background-color: #ffffff;
+}
+/* button tradfu inverted-square  - end */
+
+/* Carousel Styles - start*/
+
+   /* todo need to style the links for the carousel - if links are used*/
+
+.carousel-caption {
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.carousel-caption > a {
+	color: #FFFFFF;
+}
+
+/* Carousel Styles - end */
+
+
+.heroContainer {
+	position: relative;
+}
+
+/* Fixed link box styling - Start */
+.fixedLinkBox {
+	position:absolute!important;
+	bottom: 40px;
+	right: 145px;
+	z-index:30;
+}
+
+.fixedLinkBox.left {
+	right: auto;
+}
+
+@media only screen and (max-width:554px) {
+	.fixedLinkBox {
+		bottom: 0;
+		right: 30px;
+	}
+	.fixedLinkBox.left {
+		right: auto;
+	}
+}
+
+@media only screen and (min-width:555px)  and (max-width:767px) {
+	.fixedLinkBox {
+		bottom: 0;
+		right: 40px;
+	}
+	.fixedLinkBox.left {
+		right: auto;
+	}
+}
+@media only screen and (min-width:768px) and (max-width:1024px) {
+	.fixedLinkBox {
+		bottom: -12px;
+		right: 60px;
+	}
+	.fixedLinkBox.left {
+		right: auto;
+	}
+}
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+	.fixedLinkBox {
+		right: 80px;
+	}
+	.fixedLinkBox.left {
+		right: auto;
+	}
+}
+
+.fixedLinkBox a {
+	display: block!important;
+	position: relative!important;
+	height: 206px;
+	width: 206px;
+	color:#FFF;
+	background-color: #12a79d;
+	-webkit-transition: all .1s cubic-bezier(.9,0,.1,1);
+	transition: all .1s cubic-bezier(.9,0,.1,1);
+}
+
+.fixedLinkBox a:active,
+.fixedLinkBox a:focus,
+.fixedLinkBox a:hover {
+	background-color: #1a8e86;
+	text-decoration: none;
+}
+
+.fixedLinkBox.grey a {
+	background-color: #8E8E8E;
+}
+
+.fixedLinkBox.grey a:active,
+.fixedLinkBox.grey a:focus,
+.fixedLinkBox.grey a:hover {
+	background-color: #808080;
+	text-decoration: none;
+}
+
+.fixedLinkBox.orange a {
+	background-color: #f7931d;
+}
+
+.fixedLinkBox.orange a:active,
+.fixedLinkBox.orange a:focus,
+.fixedLinkBox.orange a:hover {
+	background-color: #e6881a;
+	text-decoration: none;
+}
+
+.fixedLinkBox a,
+.fixedLinkBoxFooterContainer {
+	padding: 32px 20px 20px 32px;
+}
+
+.fixedLinkBoxFooterContainer {
+	position: absolute!important;
+	right: 0;
+	bottom: 0;
+}
+
+@media only screen and (max-width:554px) {
+	.fixedLinkBox a {
+		height: 85px;
+		width: 162px;
+	}
+	.fixedLinkBox a,
+	.fixedLinkBoxFooterContainer {
+		padding: 16px 16px 4px;
+	}
+}
+@media only screen and (min-width:555px) and (max-width:767px) {
+	.fixedLinkBox a {
+		height: 162px;
+		width: 162px;
+	}
+	.fixedLinkBox a,
+	.fixedLinkBoxFooterContainer {
+		padding: 16px 16px 4px;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+	.fixedLinkBox a {
+		height: 180px;
+		width: 180px;
+	}
+	.fixedLinkBox a,
+	.fixedLinkBoxFooterContainer {
+		padding: 20px 16px 16px 20px;
+	}
+}
+
+@media only screen and (min-width:1025px) and (max-width:1280px) {
+	.fixedLinkBox a {
+		height: 206px;
+		width: 206px;
+	}
+	.fixedLinkBox a,
+	.fixedLinkBoxFooterContainer {
+		padding: 20px 16px 16px 20px;
+	}
+}
+
+.fixedLinkBox a:hover .glyphicon-chevron-right {
+	margin-right: -10px;
+	margin-left: 10px;
+}
+
+.fixedLinkBoxHeading {
+	font-size: 20px;
+	font-size: 1.42857rem;
+	line-height: 1.4;
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+	.fixedLinkBoxHeading {
+		font-size: 16px;
+		font-size: 1.14286rem;
+		line-height: 1.375l;
+	}
+}
+
+@media only screen and (max-width:767px) {
+	.fixedLinkBoxHeading {
+		font-size: 15px;
+		font-size: 1.07143rem;
+		line-height: 1.33333;
+	}
+}
+
+.fixedLinkBoxFooterArrow {
+	text-align: left;
+	padding: 11px 40px 11px 20px;
+}
+
+.fixedLinkBoxFooterArrow .glyphicon-chevron-right {
+	font-size: 1.4em;
+	-webkit-transition: margin .4s ease;
+	transition: margin .4s ease;
+	position: absolute;
+}
+
+.fixedLinkBoxFooterArrow:hover .glyphicon-chevron-right {
+	margin-right: -4px;
+	margin-left: 4px;
+}
+
+.fixedLinkBoxFooterArrow .glyphicon-chevron-right {
+	right: 12px;
+	margin-top: 1px;
+	line-height: 1;
+	top: calc(50% - 12px);
+}
+
+.fixedLinkBoxFooterContainer .fixedLinkBoxFooter {
+	border-color:transparent;
+	margin:0;
+	padding:0;
+	line-height:1.7;
+}
+
+.fixedLinkBoxFooterContainer .glyphicon-chevron-right {
+	right:0!important;
+}
+
+.fixedLinkBoxFooter, 
+.fixedLinkBoxFooter .glyphicon .glyphicon-chevron-right {
+	-webkit-transition: all .2s cubic-bezier(.9,0,.1,1)!important;
+	transition: all .2s cubic-bezier(.9,0,.1,1)!important;
+}
+
+.fixedLinkBoxFooter {
+	border-radius: 0;
+	border: 2px solid #12a79d;
+	outline: 0;
+	position: relative;
+	font-size: 14px;
+	font-size: 1rem;
+	vertical-align: middle;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	overflow: visible;
+	text-transform: uppercase;
+}
+
+.fixedLinkBoxFooter,
+.fixedLinkBoxFooter:active,
+.fixedLinkBoxFooter:focus,
+.fixedLinkBoxFooter:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+.fixedLinkBoxFooter::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+@media only screen and (max-width:767px) {
+	.fixedLinkBoxFooter{
+		width: 100%;
+	}
+}
+
+.fixedLinkBoxFooter .linkText {
+	overflow: hidden!important;
+	margin-right:32px!important;
+}
+
+/* Fixed link box styling - end */
+
+
+/* Legal - Start */
+
+/* this is used to offset the height of the fixed menu so that the using an id in an anchor tag works */
+.jumptarget::before {
+  content:"";
+  display:block;
+  height:50px; /* fixed header height*/
+  margin:-50px 0 0; /* negative fixed header height */
+}
+
+body {
+    counter-reset: section;
+}
+
+h1.autonumber {
+    counter-reset: subsection__lvl_1;
+}
+h1.autonumberPeriod {
+    counter-reset: subsection__lvl_1;
+}
+h2.autonumber {
+    counter-reset: subsection__lvl_2;
+}
+h3.autonumber {
+    counter-reset: subsection__lvl_3;
+}
+h4.autonumber {
+    counter-reset: subsection__lvl_4;
+}
+h5.autonumber {
+    counter-reset: subsection__lvl_5;
+}
+h6.autonumber {
+    counter-reset: subsection__lvl_6;
+}
+
+h1.autonumber::before {
+    counter-increment: section;
+    content: counter(section) "  ";
+}
+h1.autonumberPeriod::before {
+    counter-increment: section;
+    content: counter(section) ".  ";
+}
+
+h2.autonumber::before {
+    counter-increment: subsection__lvl_1;
+    content: counter(section) "." counter(subsection__lvl_1) "  ";
+}
+h3.autonumber::before {
+    counter-increment: subsection__lvl_2;
+    content: counter(section) "." counter(subsection__lvl_1) "." counter(subsection__lvl_2) "  ";
+}
+h4.autonumber::before {
+    counter-increment: subsection__lvl_3;
+    content: counter(section) "." counter(subsection__lvl_1) "." counter(subsection__lvl_2) "." counter(subsection__lvl_3) "  ";
+}
+h5.autonumber::before {
+    counter-increment: subsection__lvl_4;
+    content: counter(section) "." counter(subsection__lvl_1) "." counter(subsection__lvl_2) "." counter(subsection__lvl_3) "." counter(subsection__lvl_4) "  ";
+}
+h6.autonumber::before {
+    counter-increment: subsection__lvl_5;
+    content: counter(section) "." counter(subsection__lvl_1) "." counter(subsection__lvl_2) "." counter(subsection__lvl_3) "." counter(subsection__lvl_4) "." counter(subsection__lvl_5) "  ";
+}
+
+span.currentSection::before {
+	content: counter(section) ".  ";
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+mark {
+    background-color: yellow;
+    color: black;
+}
+
+/* Legal -  end */
+
+
+/* Sidebar Menu Modal - hamburger menu when screen is large  - start*/
+.modal.left .modal-dialog,
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 320px;
+    height: 100%;
+    transform: translate3d(0%, 0, 0);
+}
+
+.modal.left .modal-content,
+.modal.right .modal-content {
+    height: 100%;
+    overflow-y: auto;
+}
+
+.modal.left .modal-body,
+.modal.right .modal-body {
+    padding: 15px 15px 80px;
+}
+
+/*Left*/
+.modal.left.fade .modal-dialog{
+    left: -320px;
+    transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.left.fade.in .modal-dialog{
+    left: 0;
+}
+
+/* Modal for menu bar style*/
+.modal-content {
+    border-radius: 0;
+    border: none;
+    background-color: #2D2D2D;
+}
+
+.modal-header {
+    border-bottom-color: transparent;
+    background-color: #2D2D2D;
+    color: #ffffff;
+}
+
+#menuModal button:focus{
+    outline:none!important;
+}
+
+#menuModal button.close {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* modal sidebar menu styling - start */
+.navbar-left {
+    float: left;
+}
+
+@media screen and (max-width: 767px){
+    .navbar-toggle.mine {
+        display: none;
+    }
+    .navbar-toggle.mine.collapsed{
+        display: none;  
+    }
+    .navbar-left {
+        float: left;
+        margin-left: 15px;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .navbar-toggle.mine {
+        display: block!important;
+    }
+    
+    .navbar-toggle.mine.collapsed {
+        display:block!important;    
+    }
+	
+}
+
+.navbar-toggle.mine {
+    display: block;
+}
+
+.modal {
+    overflow-y: auto;
+}
+
+.modal-open {
+    overflow: auto;
+}
+
+.modal-open[style] {
+    padding-right: 0px !important;
+}
+
+.sidebar {
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+}
+
+/* Sidebar navigation */
+.nav-sidebar {
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+
+.nav-sidebar > li {
+    width: 100%;
+}
+
+.nav-sidebar li {
+    width: 100%;
+}
+
+.nav-sidebar > li > a {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+}
+
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #428bca;
+}
+
+.nav-sidebar > .navbar-inverse > li:hover,
+.nav-sidebar > .navbar-inverse > li:focus {
+    color: #fff;
+    background-color: #0F0F0F;
+}
+
+/* Sidebar Menu Modal - hamburger menu when screen is large  - end */
+
+/* Forms and Validation - Start */
+.form-group.required label:after {
+	content: " *";
+	color: red;
+}
+/* Forms and Validation - End */
