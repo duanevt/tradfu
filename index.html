@@ -8,14 +8,478 @@
 		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<title>tradFu</title>
 
+		<link rel="icon" href="favicon.ico">
+		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
 
+		<!-- TODO SEO Metadata keywords etc-->
+		<meta name="description" content="{{pageDescription}}">
+        <script type="text/javascript">TRADFU_API_SERVER_PATH="{{TRADFU_API_SERVER_PATH | safe}}"</script>
+
+		<!-- Bootstrap -->
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+		<!-- Font Awesome - social media glyphicons etc -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+
+
+	    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+		<link rel="stylesheet" type="text/css" href="/css/style.css">
+<link rel="stylesheet" type="text/css" href="/css/affixed.css">
 
 	</head>
-	<body >
+	<body data-spy="scroll" data-target=".scrollspy">
 		<!-- Menu Modal -->
+		<div class="container">
+			<!-- Modal -->
+			<div class="modal left fade" id="menuModal" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+							<a class="navbar-brand active" href="#"><img src="/images/tradfu-logo-btn-hover.png" alt="Tradfu Logo" width="130px" height="20px" /></a>
+						</div>
+
+						<div class="modal-body">
+							<!-- Left aligned menu items -->
+							<div class="nav sidebar nav-sidebar navbar-inverse">
+								<!-- All links defined in this menu are also defined elsewhere on the page -->
+								<ul class="nav navbar-nav navbar-right navbar-inverse">
+										<li><a href='customer.html'>Hire a Tradfu</a></li>
+										<li><a href='contractor.html'>Contractor Benefits</a></li>
+										<li><a href='contractorRegInterest.html'>Become a Contractor</a></li>
+										<li><a href='about.html'>About Us</a></li>
+										<li><a href='contactUs.html'>Contact Us</a></li>
+								</ul>
+							</div>
+						</div>
+
+					</div><!-- modal-content -->
+				</div><!-- modal-dialog -->
+			</div><!-- modal -->
+		</div>
+
+		<!-- Menu Navbar -->
+		<nav class="navbar navbar-fixed-top navbar-inverse">
+			<div class="container">
+				<div class="navbar-header">
+
+					<!-- Burger button - visible when screen is large - triggers modal menu -->
+					<button type="button" class="navbar-toggle collapsed navbar-left mine" data-toggle="modal" data-target="#menuModal" aria-expanded="true" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<!-- Burger button - only visible if small screen -->
+					<button type="button" class="navbar-toggle collapsed navbar-left" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<!-- Tradfu logo/text here -->
+				    <a class="navbar-brand active" href='#'>
+				        <img src='images/tradfu-logo-btn-hover.png' alt="Tradfu Logo" width="130px" height="20px"/>
+				    </a>
+				</div>
+
+				<div id="navbar" class="collapse navbar-collapse">
+
+					<!-- Left aligned menu items -->
+					<ul class="nav navbar-nav">
+						<li><a href='customer.html'>Hire a Tradfu</a></li>
+						<li><a href='contractor.html'>Contractor Benefits</a></li>
+					</ul>
+
+				</div><!-- /.nav-collapse -->
+			</div><!-- /.container -->
+		</nav><!-- /.navbar -->
+
+		<div class="container-fluid">
+		    <div class="row row-offcanvas row-offcanvas-right">
+		        <div class="col-sm-12">
+
+		            <!-- anything to appear before the scrollspy section should be placed inside this div -->
+		            <div class="row topStopper">
+		                <!-- Hero container is required for the positioning of fixedLinkBox-->
+		                <div class="heroContainer">
+		                    <br>
+		                    <div class="container">
+		                        <h1>The tool to get the job done</h1>
+		                    </div>
+		                    <!-- todo find a stock image, this one is not free -->
+		                    <img src="/images/home.jpg" alt="Tradfu contractors image" width="100%">
+
+		                    <!-- Container is used to align the fixedLinkBox with the content -->
+		                    <div class="container">
+		                        <!-- Fixed Square Link Box -->
+		                        <div class="fixedLinkBox left grey">
+		                            <a href="contractorRegInterest.html">
+		                                <div class="fixedLinkBoxHeadingContainer">
+		                                    <div class="fixedLinkBoxHeading">
+		                                        Start working with Tradfu
+		                                </div>
+		                            </div>
+		                                <div class="fixedLinkBoxFooterContainer">
+		                                    <div class="fixedLinkBoxFooter">
+		                                        <span>Sign up</span><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		                                </div>
+		                            </div>
+		                            </a>
+		                        </div>
+		                    </div>
+		                </div>
+
+		                <div class="container">
+		                    <div class="jumbotron transparent">
+
+		                        <h3 class="text-center">What is Tradfu?</h3>
+		                        <p class="text-center">Tradfu is your one stop solution platform. When you need something fixed or a problem solved then Tradfu will facilitate getting the right service to you - when you want! We take the hassle out of procuring and scheduling the services, acceptance and allocation of job requests and payment transactions.</p>
+		                    </div>
+		                </div>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+		<div class="container">
+		    <div class="row row-offcanvas row-offcanvas-right">
+		        <div class="col-sm-12">
+		            <!-- scrolling section with text and image indicators-->
+		            <div class="row">
+
+		                <!-- scroll spy image indicator and moble phone screen-->
+		                <div class="hidden-xs hidden-sm col-md-6 col-lg-6 scrollspy">
+		                    <div id="nav" class="hidden-xs hidden-sm" data-spy="affix">
+		                        <!-- scroll spy image indicator -->
+		                        <div class="indicator">
+		                            <ul class="nav">
+		                                <li>
+		                                    <a href="#about">
+		                                        <i class="fa fa-circle" aria-hidden="true"></i>
+		                                        <i class="fa fa-circle-thin" aria-hidden="true"></i>
+		                                    </a>
+		                                </li>
+		                                <li>
+		                                    <a href="#tap-to-order">
+		                                        <i class="fa fa-circle" aria-hidden="true"></i>
+		                                        <i class="fa fa-circle-thin" aria-hidden="true"></i>
+		                                    </a>
+		                                </li>
+		                                <li>
+		                                    <a href="#clear-pricing">
+		                                        <i class="fa fa-circle" aria-hidden="true"></i>
+		                                        <i class="fa fa-circle-thin" aria-hidden="true"></i>
+		                                    </a>
+		                                </li>
+		                                <li>
+		                                    <a href="#feedback-and-scheduling">
+		                                        <i class="fa fa-circle" aria-hidden="true"></i>
+		                                        <i class="fa fa-circle-thin" aria-hidden="true"></i>
+		                                    </a>
+		                                </li>
+
+		                            </ul>
+		                        </div>
+		                        <!-- mobile phone screen / image transitions -->
+		                        <div class="picdiv">
+		                            <div class="mobileImage">
+		                                <!-- mobile phone background image goes here -->
+		                                <div id="spyImage">
+		                                    <!-- mobile phone screen images go here-->
+		                                    <img id="about-img" class='opaque' src="/images/fix_toilet_168x325.gif" alt="Decorative Illustration" width="168px" height="325px" />
+		                                    <img id="tap-to-order-img" src="/images/advsched_168x325.gif" alt="Decorative Illustration"  width="168px" height="325px" />
+		                                    <img id="clear-pricing-img" src="/images/job_complete_168x325.gif" alt="Decorative Illustration" width="168px" height="325px" />
+		                                    <img id="feedback-and-scheduling-img" src="/images/bill_creditcard_168x325.gif" alt="Decorative Illustration"  width="168px" height="325px" />
+		                                </div>
+		                            </div>
+		                        </div>
+		                    </div>
+		                </div>
+
+		                <!-- Text sections - each section id is referenced by the href for the anchors inside .indicator and the ids for the images inside #spyImage  -->
+		                <div class="col-xs-12 col-md-6 col-lg-6 uniqueSellingProposition">
+
+		                    <div class="row">
+
+		                        <!-- only visible when screen is small or extra small  -->
+		                        <div class="featureImage one col-xs-12 col-sm-6 hidden-md hidden-lg">
+		                            <img src="/images/fix_toilet_207x421.gif" alt="Decorative Illustration" width="207px" height="421px" />
+		                        </div>
+
+		                        <!-- visible all the time -->
+		                        <section id="about" class="col-xs-12 col-sm-6 col-md-12">
+
+		                            <!-- Card content -->
+		                            <h3>Hassle-Free</h3>
+		                            <p>Tradfu is all about taking the time and pain out of finding and organising services. This involves a range of features that bundled together creates an automated system that ensures you a trouble-free experience.</p>
+		                            <!-- Link hidden when screen extra small -->
+		                            <a href="customer.html" class="hidden-xs">
+		                                <span>Learn more about Tradfu</span>
+		                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		                            </a>
+
+		                            <!-- Spacer -bottom- only visible when screen is med or large  -->
+		                            <div class="cardspacer bottomhalf hidden-xs hidden-sm col-md-12">
+		                                &nbsp;
+		                            </div>
+		                        </section>
+
+		                    </div>
+		                    <div class="row">
+
+		                        <!-- visible all the time -->
+		                        <section id="tap-to-order" class="col-xs-12 col-sm-6 col-md-12">
+
+		                            <!-- Spacer -top- only visible when screen is med or large  -->
+		                            <div class="cardspacer tophalf hidden-xs hidden-sm col-md-12">
+		                                &nbsp;
+		                            </div>
+
+		                            <!-- Card content -->
+		                            <span class="miniHr">&nbsp;</span>
+		                            <h3>Just Tap To Order</h3>
+		                            <p>Tradfu can use your Phone's GPS to detect your location and availability to connect you with suitable contractors.</p>
+		                            <!-- Link hidden when screen extra small -->
+		                            <a href="customer.html" class="hidden-xs">
+		                                <span>Learn more about Tradfu</span>
+		                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		                            </a>
+
+		                            <!-- Spacer - only visible when screen is med or large  -->
+		                            <div class="cardspacer hidden-xs hidden-sm col-md-12">
+		                                &nbsp;
+		                            </div>
+
+		                            <!-- Card content -->
+		                            <span class="miniHr">&nbsp;</span>
+		                            <h3>Reliable And Trustworthy</h3>
+		                            <p>Access to Tradfu's accredited tradespersons that are rated by everyday people like you.</p>
+		                            <!-- Link hidden when screen extra small -->
+		                            <a href="customer.html" class="hidden-xs">
+		                                <span>Learn more about Tradfu</span>
+		                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		                            </a>
+
+		                            <!-- Spacer -bottom- only visible when screen is med or large  -->
+		                            <div class="cardspacer bottomhalf hidden-xs hidden-sm col-md-12">
+		                                &nbsp;
+		                            </div>
+
+		                        </section>
+		                        <!-- only visible when screen is small - hidden all other times  -->
+		                        <div class="featureImage two col-sm-6 hidden-xs hidden-md hidden-lg">
+		                            <img src="/images/advsched_207x421.gif" alt="Decorative Illustration" width="207px" height="421px" />
+		                        </div>
+
+		                    </div>
+		                    <div class="row">
+
+		                        <!-- only visible when screen is small - hidden all other times  -->
+		                        <div class="featureImage three col-sm-6 hidden-xs hidden-md hidden-lg">
+		                            <img src="/images/job_complete_207x421.gif" alt="Decorative Illustration" width="207px" height="421px" />
+		                        </div>
+
+		                        <!-- visible all the time -->
+		                        <section id="clear-pricing" class="col-xs-12 col-sm-6 col-md-12">
+
+		                            <!-- Spacer -top- only visible when screen is med or large  -->
+		                            <div class="cardspacer tophalf hidden-xs hidden-sm col-md-12">
+		                                &nbsp;
+		                            </div>
+
+		                            <!-- Card content -->
+		                            <span class="miniHr">&nbsp;</span>
+		                            <h3>Clear Fixed Pricing - No Bill Shock</h3>
+		                            <p>Choose from a range of fixed priced services all at your fingertips. With upfront pricing available at the time you make the job request, there will be no bill shock at the time of job completion.</p>
+		                            <!-- Link hidden when screen extra small -->
+		                            <a href="customer.html" class="hidden-xs">
+		                                <span>Learn more about Tradfu</span>
+		                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		                            </a>
+
+		                            <!-- Spacer - only visible when screen is med or large  -->
+		                            <div class="cardspacer hidden-xs hidden-sm col-md-12">
+		                                &nbsp;
+		                            </div>
+
+		                            <!-- Card content -->
+		                            <span class="miniHr">&nbsp;</span>
+		                            <h3>Cashless & Convenient</h3>
+		                            <p>One click for job acceptance and payment. No need for internet banking for payment of invoices or handing out credit card details. We'll also e-mail you an official receipt.</p>
+		                            <!-- Link hidden when screen extra small -->
+		                            <a href="customer.html" class="hidden-xs">
+		                                <span>Learn more about Tradfu</span>
+		                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		                            </a>
+
+		                            <!-- Spacer - only visible when screen is med or large  -->
+		                            <div class="cardspacer hidden-xs hidden-sm col-md-12">
+		                                &nbsp;
+		                            </div>
+
+		                            <!-- Card content -->
+		                            <span class="miniHr">&nbsp;</span>
+		                            <h3>Feedback Matters</h3>
+		                            <p>Tradesmen need to meet your standards - not only ours. Providing accurate feedback builds and maintains a quality system for everyone.</p>
+		                            <!-- Link hidden when screen extra small -->
+		                            <a href="customer.html" class="hidden-xs">
+		                                <span>Learn more about Tradfu</span>
+		                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		                            </a>
+
+		                            <!-- Spacer -bottom- only visible when screen is med or large  -->
+		                            <div class="cardspacer bottomhalf hidden-xs hidden-sm col-md-12">
+		                                &nbsp;
+		                            </div>
+
+		                        </section>
+
+		                    </div>
+		                    <div class="row">
+
+		                        <!-- visible all the time -->
+		                        <section id="feedback-and-scheduling" class="col-xs-12 col-sm-6 col-md-12">
+
+		                            <!-- Spacer -top- only visible when screen is med or large  -->
+		                            <div class="cardspacer tophalf hidden-xs hidden-sm col-md-12">
+		                                &nbsp;
+		                            </div>
+
+		                            <!-- Card content -->
+		                            <span class="miniHr">&nbsp;</span>
+		                            <h3>Scheduling</h3>
+		                            <p>The biggest headache with arranging and coordinating service - Gone! It's like aspirin for the trade industry. Using Tradfu's built in scheduling environment to suggest and agree on appointments in an efficient manner will change the way work is done. With reminders and follow-ups all parties can have confidence that work is done on time.</p>
+		                            <!-- Link hidden when screen extra small -->
+		                            <a href="customer.html" class="hidden-xs">
+		                                <span>Learn more about Tradfu</span>
+		                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		                            </a>
+
+		                            <!-- Spacer - only visible when screen is med or large  -->
+		                            <div class="cardspacer hidden-xs hidden-sm col-md-12">
+		                                &nbsp;
+		                            </div>
+		                            <!-- Card content -->
+		                            <span class="miniHr">&nbsp;</span>
+		                            <h3>No More Phone Calls</h3>
+		                            <p>Our instant messaging service eliminates back and forth calls between parties saving you time and hassle playing phone tag.</p>
+		                            <!-- Link Visible at all times -->
+		                            <a href="customer.html">
+		                                <span>Learn more about Tradfu</span>
+		                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		                            </a>
+
+		                            <!-- Spacer -bottom- only visible when screen is med or large  -->
+		                            <div class="cardspacer bottomhalf hidden-xs hidden-sm col-md-12">
+		                                &nbsp;
+		                            </div>
+
+		                        </section>
+
+		                        <!-- only visible when screen is small - hidden all other times  -->
+		                        <div class="featureImage two last col-sm-6 hidden-xs hidden-md hidden-lg">
+		                            <img src="/images/bill_creditcard_207x421.gif" alt="Decorative Illustration" width="207px" height="421px" />
+		                        </div>
+
+		                    </div>
+		                </div>
+
+		            </div><!--/row-->
+		            <!-- scrolling section with text and image indicators - end-->
+
+		            <!-- anything to appear after the scrollspy section should be placed inside this div -->
+		            <div class="bottomStopper">
+
+		                <div class="jumbotron transparent">
+		                    <h1 class="text-center">We're coming!</h1>
+		                    <p class="text-center">Tradfu is coming to Melbourne and Brisbane soon, stay tuned</p>
+		                    <p class="text-center">If you are a contractor and would like to register your interest to use our services in the future follow the link below</p>
+		                    <div class="text-center">
+		                        <a class="btn btn-tradfu-green" href="contractorRegInterest.html" role="button">Become a Contractor &raquo;</a>
+		                    </div>
+		                </div>
+		            </div>
+
+		        </div><!--/.col-xs-12.col-sm-9-->
+		    </div><!--/row-->
+		</div><!--/.container-->
 
 
-	<h1>tRADFU debug</h1>
-<img src="images/home.jpg" alt="Tradfu contractors image" width="100%">
+
+		<footer class="footer">
+			<nav class="navbar navbar-bottom navbar-inverse">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+
+							<!-- Footer menu - contact us, media etc -->
+							<div class="row">
+								<!-- Footer top - Left menu -->
+								<ul class="nav navbar-nav">
+									<li><a href='about.html'><span>About Us</span></a></li>
+									<li><a href='contactUs.html'><span>Contact Us</span></a></li>
+								</ul>
+
+								<!-- Footer top - Right menu -->
+								<!-- Social Media links -->
+								<div class="navbar-right">
+									<a href="https://www.facebook.com/Tradfu" target="_blank" class="footer_social">
+										<span class="sr-only">Facebook</span>
+										<i class="fa fa-facebook"></i>
+									</a>
+									<a href="https://www.linkedin.com/company/tradfu" target="_blank" class="footer_social">
+										<span class="sr-only">LinkedIn</span>
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</div>
+
+							</div><!--/row-->
+
+							<div class="row secondary">
+
+								<!-- Footer bottom - Left menu -->
+								<!-- Copyright / Privacy / terms -->
+								<ul class="nav navbar-nav">
+										<li><a href='privacy.html'><span>Privacy</span></a></li>
+										<li><a href='terms.html'><span>Terms</span></a></li>
+									<li><span>&copy; 2016 Tradfu Holdings Pty Ltd.</span></li>
+								</ul>
+							</div><!--/row-->
+
+						</div><!--/.col-xs-12.col-sm-9-->
+					</div><!--/row-->
+				</div><!-- /.container -->
+			</nav><!-- /.navbar -->
+		</footer>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) - stay below v2.x.x to support IE8 -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="/js/ie10-viewport-bug-workaround.js"></script>
+
+
+		<!-- debounce script http://benalman.com/projects/jquery-throttle-debounce-plugin/ -->
+		<script src="/js/throttle-debounce.js"></script>
+
+		<!-- tradfu custom scripts -->
+		<script src="/js/affix-homepage.js"></script>
+
 	</body>
 </html>
