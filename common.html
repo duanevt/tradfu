@@ -17,13 +17,13 @@
         <script type="text/javascript">TRADFU_API_SERVER_PATH="{{TRADFU_API_SERVER_PATH | safe}}"</script>
 		
 		<!-- Bootstrap -->
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6css/bootstrap.min.css" rel="stylesheet">
 		
 		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-		<link href="/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+		<link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 		
 		<!-- Font Awesome - social media glyphicons etc -->
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0css/font-awesome.min.css">
 
 	    {% if useToastr %}
         <!-- toastr -->
@@ -36,7 +36,7 @@
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
-		<link rel="stylesheet" type="text/css" href="/css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
 {% block extraHead %}
 {% endblock  %}
 		
@@ -51,7 +51,7 @@
 
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							<a class="navbar-brand {{'active' if activePage == 'tradfu' }}" href="#"><img src="/images/tradfu-logo-btn-hover.png" alt="Tradfu Logo" width="130px" height="20px" /></a>
+							<a class="navbar-brand {{'active' if activePage == 'tradfu' }}" href="#"><img src="images/tradfu-logo-btn-hover.png" alt="Tradfu Logo" width="130px" height="20px" /></a>
 						</div>
 
 						<div class="modal-body">
@@ -96,7 +96,7 @@
 					
 					<!-- Tradfu logo/text here -->
 				    <a class="navbar-brand {{'active' if activePage == 'tradfu'}}" href="{{'#' if activePage == 'tradfu' else 'index.html'}}">
-				        <img src="{{'/images/tradfu-logo-btn-hover.png' if activePage == 'tradfu' else '/images/tradfu-logo-btn.png'}}" alt="Tradfu Logo" width="130px" height="20px"/>
+				        <img src="{{'images/tradfu-logo-btn-hover.png' if activePage == 'tradfu' else 'images/tradfu-logo-btn.png'}}" alt="Tradfu Logo" width="130px" height="20px"/>
 				    </a>
 				</div>
 				
